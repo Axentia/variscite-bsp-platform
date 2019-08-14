@@ -10,6 +10,7 @@
   <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="https://github.com/varigit"       name="variscite"/>
+  <remote fetch="ssh://git@github.com"             name="github"/>
 
   <project remote="yocto"     revision="50f33d3bfebcbfb1538d932fb487cfd789872026" upstream="thud"   name="poky"                    path="sources/poky"/>
   <project remote="yocto"     revision="46fcbab00f7e01ded4609c09be89161783426f41" upstream="thud"   name="meta-freescale"          path="sources/meta-freescale"/>
@@ -20,9 +21,11 @@
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser"            path="sources/meta-browser"/>
   <project remote="sbabic"    revision="66af6e7e019b07b48facfd68be3c4ab2094502a4" upstream="thud"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="variscite" revision="73bd1c1360d923d79c557850d6818756c5a85542" upstream="thud"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
+  <project remote="github"    revision="master"                                   upstream="master" name="Axentia/meta-axentia-tft" path="sources/meta-axentia-tft"/>
 
-  <project remote="variscite" revision="pyro" name="variscite-bsp-base" path="sources/base">
+  <project remote="github" revision="pyro" name="Axentia/variscite-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
+	<copyfile dest="README.axentia" src="README.axentia"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
