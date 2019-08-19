@@ -9,7 +9,6 @@
   <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
   <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
-  <remote fetch="https://github.com/varigit"       name="variscite"/>
   <remote fetch="ssh://git@github.com"             name="github"/>
 
   <project remote="yocto"     revision="50f33d3bfebcbfb1538d932fb487cfd789872026" upstream="thud"   name="poky"                    path="sources/poky"/>
@@ -20,7 +19,6 @@
   <project remote="QT5"       revision="0630018c0033c91fddda62a49f59a82ba6ec6850" upstream="thud"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser"            path="sources/meta-browser"/>
   <project remote="sbabic"    revision="66af6e7e019b07b48facfd68be3c4ab2094502a4" upstream="thud"   name="meta-swupdate"           path="sources/meta-swupdate"/>
-  <project remote="variscite" revision="73bd1c1360d923d79c557850d6818756c5a85542" upstream="thud"   name="meta-variscite-fslc"     path="sources/meta-variscite-fslc"/>
   <project remote="github"    revision="master"                                   upstream="master" name="Axentia/meta-axentia-tft" path="sources/meta-axentia-tft"/>
 
   <project remote="github" revision="pyro" name="Axentia/variscite-bsp-base" path="sources/base">
