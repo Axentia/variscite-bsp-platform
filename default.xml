@@ -25,6 +25,7 @@
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="README.axentia" src="README.axentia"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
+	<copyfile dest="fix-init.sh" src="fix-init.sh"/>
   </project>
 
 </manifest>
