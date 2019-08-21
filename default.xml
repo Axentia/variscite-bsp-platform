@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="thud"/>
+  <default sync-j="4" revision="axentia-thud"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded"  name="oe"/>
   <remote fetch="https://github.com/Freescale"     name="freescale"/>
-  <remote fetch="https://github.com/meta-qt5"      name="QT5"/>
   <remote fetch="https://github.com/OSSystems"     name="OSSystems"/>
   <remote fetch="https://github.com/sbabic"        name="sbabic"/>
   <remote fetch="ssh://git@github.com"             name="github"/>
@@ -16,16 +15,14 @@
   <project remote="oe"        revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud"   name="meta-openembedded"       path="sources/meta-openembedded"/>
   <project remote="freescale" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"   name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="4a244af3993ae662624c6f615464e6806cc719a2" upstream="thud"   name="meta-freescale-distro"   path="sources/meta-freescale-distro"/>
-  <project remote="QT5"       revision="0630018c0033c91fddda62a49f59a82ba6ec6850" upstream="thud"   name="meta-qt5"                path="sources/meta-qt5"/>
   <project remote="OSSystems" revision="75640e14e325479c076b6272b646be7a239c18aa" upstream="master" name="meta-browser"            path="sources/meta-browser"/>
   <project remote="sbabic"    revision="66af6e7e019b07b48facfd68be3c4ab2094502a4" upstream="thud"   name="meta-swupdate"           path="sources/meta-swupdate"/>
   <project remote="github"    revision="no-variscite-bsp"                                   upstream="no-variscite-bsp" name="Axentia/meta-axentia-tft" path="sources/meta-axentia-tft"/>
 
-  <project remote="github" revision="pyro" name="Axentia/variscite-bsp-base" path="sources/base">
+  <project remote="github" revision="master" name="Axentia/axentia-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
-	<copyfile dest="README.axentia" src="README.axentia"/>
+	<copyfile dest="README.variscite" src="README.variscite"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
-	<copyfile dest="fix-init.sh" src="fix-init.sh"/>
   </project>
 
 </manifest>
